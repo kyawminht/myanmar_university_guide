@@ -83,22 +83,7 @@ export default function Footer() {
                   through technology. 
                 </p>
 
-                {/* Skills/Tags */}
-                <div className="flex flex-wrap gap-2 mt-4 justify-center sm:justify-start">
-                  <span className="text-xs px-2.5 py-1 bg-app-accent-light dark:bg-dark-accent-light text-app-accent rounded-full font-medium">
-                    React
-                  </span>
-                  <span className="text-xs px-2.5 py-1 bg-app-blue-light dark:bg-dark-blue-light text-app-blue rounded-full font-medium">
-                    Mobile
-                  </span>
-                  <span className="text-xs px-2.5 py-1 bg-app-purple-light dark:bg-dark-purple-light text-app-purple rounded-full font-medium">
-                    TypeScript
-                  </span>
-                  <span className="text-xs px-2.5 py-1 bg-app-gold-light dark:bg-dark-gold-light text-app-gold rounded-full font-medium">
-                    JavaScript
-                  </span>
-                </div>
-
+              
                 {/* Social Links */}
                 <div className="flex gap-3 mt-4 justify-center sm:justify-start">
                   <a 
@@ -143,16 +128,19 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-app-border dark:border-dark-border">
-        <div className="text-center py-5 px-4">
-          <p className="text-xs text-app-muted dark:text-dark-muted">
-            © {new Date().getFullYear()} Myanmar University Admission Checker
-          </p>
-          <p className="text-xs text-app-muted dark:text-dark-muted mt-1">
-            အချက်အလက်များ ခန့်မှန်းခြေသာဖြစ်ပါသည် — တရားဝင်မဟုတ်ပါ
-          </p>
-          <p className="text-xs text-app-muted dark:text-dark-muted mt-1 opacity-70">
-            Data is approximate — not official admission criteria
-          </p>
+        <div className="">
+          {/* Disclaimer */}
+          <div className=" px-4 text-center border-t border-app-border dark:border-dark-border pt-6">
+            <p className="text-xs text-app-muted dark:text-dark-muted">
+              ၂၀၂၅ ဒေတာများကို အခြေခံထားပါသည်။ လာမည့် ၂၀၂၆ အတွက်လည်း ယခုအတိုင်းဖြစ်မည်ဟု ခန့်မှန်းရပါသည်။
+            </p>
+            <p className="text-xs text-app-muted dark:text-dark-muted mt-1">
+              ၂၀၂၆ အတွက် စာအုပ်ထွက်လာလျှင် ဖြည့်စွက်ပေးပါမည်။ အဆင်ပြေကြပါစေ။
+            </p>
+            <p className="text-xs text-app-muted dark:text-dark-muted mt-2 opacity-60">
+              Based on 2025 data — expected to be similar for 2026. Will update when official guide is released. All the best.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
