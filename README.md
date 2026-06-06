@@ -6,7 +6,8 @@ A real-time web application that helps Myanmar Grade 12 students instantly find 
 
 Desktop View
 	
-https:///src/images/desktop.png
+![Myanmar University Admission Checker](src/images/desktop.png)
+
 
 🚨 The Problem This Solves
 
