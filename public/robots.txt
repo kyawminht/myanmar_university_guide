@@ -1,0 +1,28 @@
+# robots.txt for Uni Winkwint - Myanmar University Admission Checker
+# https://uni-winkwint.vercel.app
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /src/
+
+# Sitemap location
+Sitemap: https://uni-winkwint.vercel.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex Bot
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
